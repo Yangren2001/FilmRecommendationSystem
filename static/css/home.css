@@ -1,0 +1,39 @@
+.top{
+    padding-top: 30px;
+    text-align: center;
+    background-color: #b6e6ec;
+    padding-bottom: 20px;
+    /*height: 280px;*/
+}
+
+.top span{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+/*.top img{*/
+/*    position: relative;*/
+/*    left: 40px;*/
+/*}*/
+.div_show{
+    /*border: black solid 1px;*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.li_show{
+    float: left;
+    font-weight: bold;
+    border: #b6e6ec solid 1px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    min-height: 340px;
+    max-width: 186px;
+    width: 186px;
+
+}
+
+.ul_show{
+
+}

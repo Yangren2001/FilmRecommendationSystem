@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="icon" type="image/x-icon" href="../image/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/init_style.css">
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+</head>
+<body style="background-color: #f3eaea;">
+<div id="top" class="top">
+    <img src="../image/logo.png" alt="load error!">
+    <a href="#"><span>用户空间</span></a>
+    <a href="/genres.html"><span>影片类别</span></a><br>
+    <label><input type="text" name="search" style="width: 320px; height: 23px;border: thin;"><button id="search" style="position: relative; left: 16px;padding: 2px 13px 2px 13px">搜索</button></label>
+</div>
+<div id="show">
+    <dialog open="open" id="dialog">
+        <h3>请选择一个感兴趣的类别：</h3>
+        <form method="post" action="javascript:void(0);">
+            <label id="select">
+<!--                <input type="checkbox" name="habit" value="go_shopping" style="margin-right: 0">购物-->
+            </label><br><br><br>
+            <button id="submit" onclick="st();" style="position: relative; left: 16px;padding: 2px 13px 2px 13px; float: right; margin-right: 40px">确认</button>
+        </form>
+    </dialog>
+</div>
+</body>
+<script src="../js/home.js">
+</script>
+</html>

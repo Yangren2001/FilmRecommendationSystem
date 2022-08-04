@@ -1,0 +1,14 @@
+.a1{
+    display: block;
+    float: left;
+    padding: 10px 40px 10px 40px;
+}
+.a1:hover{
+    background-color: #b6e6ec;
+}
+
+.d1{
+    background-color: rgba(200, 0, 0, 0.6);
+    overflow: hidden;
+    /*height: 300px;*/
+}

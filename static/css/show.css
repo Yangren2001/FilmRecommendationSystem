@@ -1,0 +1,29 @@
+.m1{
+    /*text-align: center;*/
+    overflow: hidden;
+}
+.m2{
+    /*text-align: center;*/
+    border: solid #000000 2px;
+    background-color: #b5d5ef;
+    overflow: hidden;
+}
+.m3{
+    margin-top: 50px;
+
+}
+.m4{
+    display: none;
+}
+
+.img1 {
+    float: left;
+    /*width: 220px;*/
+    /*height: 340px;*/
+}
+
+.span_1{
+    font-weight: bold;
+}
+.p_1{
+}

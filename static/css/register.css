@@ -1,0 +1,16 @@
+input{
+    position: relative;
+    left: 5px;
+}
+
+.main_div{
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    background-color: #b6e6ec;
+    margin-bottom: 30px;
+}
